@@ -1,0 +1,9 @@
+
+Mac address of physcical server esxi  18:66:da:20:54:ac
+Kickstart mac address   00:0c:29:7e:e9:c1
+
+[root@localhost:~] esxcli network ip interface ipv4 get
+Name  IPv4 Address  IPv4 Netmask     IPv4 Broadcast  Address Type  DHCP DNS
+----  ------------  ---------------  --------------  ------------  --------
+vmk0  10.71.95.4    255.255.255.224  10.71.95.31     STATIC           false
+[root@localhost:~]
